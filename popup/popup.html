@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Read Aloud TTS</h1>
+
+  <section id="api-key-section">
+    <label for="api-key">API Key</label>
+    <div class="input-row">
+      <input type="password" id="api-key" placeholder="Enter your ElevenLabs API key">
+      <button id="save-key-btn">Save Key</button>
+    </div>
+  </section>
+
+  <section id="voice-section" class="hidden">
+    <label for="voice-select">Voice</label>
+    <select id="voice-select" disabled>
+      <option value="">Loading voices...</option>
+    </select>
+  </section>
+
+  <section id="model-section" class="hidden">
+    <label for="model-select">Model</label>
+    <select id="model-select" disabled>
+      <option value="">Loading models...</option>
+    </select>
+  </section>
+
+  <button id="save-settings-btn" class="primary hidden">Save Settings</button>
+
+  <div id="status-message" class="hidden"></div>
+
+  <hr>
+
+  <button id="stop-btn" disabled>Stop Playback</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
