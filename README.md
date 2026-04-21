@@ -2,7 +2,7 @@
 
 ![alt text](icons/icon-96.png)
 
-  <h1> Read Aloud TTS</h1>
+  <h1>Hearvox TTS</h1>
 
 A Firefox extension that reads selected text aloud using text-to-speech.
 </div>
@@ -35,7 +35,7 @@ When creating a restricted [ElevenLabs API key](https://elevenlabs.io/app/api/ap
 
 1. Highlight text on any webpage
 2. Right-click to open the context menu
-3. Click **"Read Aloud"**
+3. Click **"Hearvox - Read Aloud"**
 4. Audio plays through your browser
 
 To stop playback, click the extension icon and press "Stop Playback".
@@ -46,7 +46,7 @@ The extension works with ElevenLabs Free Tier accounts. Voices marked "(Free)" i
 
 ## Development
 
-Load as temporary add-on
+Load as temporary add-on:
 1. Open about:debugging#/runtime/this-firefox
 2. Click "Load Temporary Add-on..."
 3. Select src/manifest.json

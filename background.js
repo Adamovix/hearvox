@@ -48,7 +48,7 @@ function showNotification(message) {
   browser.notifications.create({
     type: "basic",
     iconUrl: "icons/icon-96.png",
-    title: "Read Aloud TTS",
+    title: "Hearvox TTS",
     message,
   });
 }
@@ -186,14 +186,14 @@ async function handleMenuClick(info) {
 
 browser.runtime.onInstalled.addListener(() => {
   browser.menus.create({
-    id: "read-aloud",
-    title: "Read Aloud",
+    id: "hearvox-tts",
+    title: "Hearvox TTS - Read Aloud",
     contexts: ["selection"],
   });
 });
 
 browser.menus.onClicked.addListener((info) => {
-  if (info.menuItemId === "read-aloud") {
+  if (info.menuItemId === "hearvox-tts") {
     handleMenuClick(info);
   }
 });

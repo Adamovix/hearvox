@@ -1,11 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "Read Aloud TTS",
-  "version": "1.0.0",
-  "description": "Read aloud selected text using text-to-speech. Supports ElevenLabs API.",
+  "name": "Hearvox TTS",
+  "version": "1.0.1",
+  "description": "Read aloud selected text using text-to-speech (TTS). Supports ElevenLabs API.",
   "browser_specific_settings": {
     "gecko": {
-      "id": "read-aloud-tts@adamovix.pl",
+      "id": "hearvox@adamovix.pl",
       "data_collection_permissions": {
         "required": ["none"]
       }
@@ -22,7 +22,7 @@
       "16": "icons/icon-16.png",
       "32": "icons/icon-32.png"
     },
-    "default_title": "Read Aloud TTS Settings"
+    "default_title": "Hearvox TTS Settings"
   },
   "background": {
     "scripts": ["background.js"],
